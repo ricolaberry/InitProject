@@ -16,8 +16,4 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp
 
-unix:!macx: LIBS += -L$$OUT_PWD/../Libraries/TestLibrary/ -lTestLibrary
-
-INCLUDEPATH += $$PWD/../Libraries/TestLibrary
-DEPENDPATH += $$PWD/../Libraries/TestLibrary
 

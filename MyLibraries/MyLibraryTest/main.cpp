@@ -1,4 +1,4 @@
-#include "tst_test.h"
+#include "my_class_test.h"
 
 #include <gtest/gtest.h>
 
