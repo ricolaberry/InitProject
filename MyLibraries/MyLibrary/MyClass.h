@@ -9,12 +9,18 @@ class IMyClass
 class MyClass : IMyClass
 {
 public:
-	MyClass() {
-
+	MyClass()
+	{
 	}
 
 	int add(int a, int b) {
 		return (a + b);
+	}
+
+	int cppCheck() {
+		char a[10];
+		a[10] = 0;
+		return 0;
 	}
 };
 

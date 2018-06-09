@@ -1,0 +1,1 @@
+cppcheck ../MyApplication ../MyLibraries -i../MyLibraries/GoogleTest 2> ../build/cppCheckResult.txt
