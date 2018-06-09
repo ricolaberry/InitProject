@@ -1,7 +1,12 @@
 #ifndef MYCLASS_H
 #define MYCLASS_H
 
-class MyClass
+class IMyClass
+{
+	virtual int add(int a, int b) =0;
+};
+
+class MyClass : IMyClass
 {
 public:
 	MyClass() {
